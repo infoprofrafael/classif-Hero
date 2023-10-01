@@ -1,6 +1,5 @@
 let nameHero = 'Ralf';
-
-let xpHero = '9999';
+let xpHero = '13999';
 var textHero = "na classificação de HEROI nível:"
 let classHero = ""
 if(xpHero<=1000){
@@ -27,7 +26,7 @@ if(xpHero<=1000){
 } else if(xpHero>9001 && xpHero<=10000){
     classHero="Imortal";
     console.log(`O heroi ${nameHero} está ${textHero} ${classHero}`)
-} else if(xpHero>10001){
+} else {
     classHero="Radiante";
     console.log(`O heroi ${nameHero} está ${textHero} ${classHero}`)
 }  
